@@ -10,7 +10,7 @@ describe('E2E test for customer', function () {
         await sequelize.close();
     })
 
-    it.skip('should create a customer', async () => {
+    it('should create a customer', async () => {
         const response = await request(app)
             .post("/customer")
             .send({
@@ -31,7 +31,7 @@ describe('E2E test for customer', function () {
         expect(response.body.address.zip).toBe("12345");
     });
 
-    it.skip('should not create a customer', async function () {
+    it('should not create a customer', async function () {
         const response = await request(app)
             .post('/customer')
             .send({
@@ -41,7 +41,7 @@ describe('E2E test for customer', function () {
         expect(response.status).toBe(500);
     });
 
-    it.skip('should list all customers', async function () {
+    it('should list all customers', async function () {
         const response = await request(app)
             .post("/customer")
             .send({

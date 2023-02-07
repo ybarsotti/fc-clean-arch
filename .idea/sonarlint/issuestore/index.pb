@@ -33,8 +33,6 @@ a
 ,src/domain/checkout/service/order.service.ts,8/9/89266b24858f01c68e1342b902a9c4ea88173aa4
 g
 7src/domain/customer/validator/customer.yup.validator.ts,2/b/2b863d3297768971b14a12c6a6e5e736180b0a72
-V
-&src/domain/product/entity/product-b.ts,e/b/ebb995f69cf9fa3287d873007ae64771129fc57d
 a
 1src/domain/product/event/product-created.event.ts,2/b/2b81d1e96bccdea905c243a438cd626250e64862
 ]
