@@ -2972,7 +2972,7 @@
   "resolved" "https://registry.npmjs.org/jsonc-parser/-/jsonc-parser-3.2.0.tgz"
   "version" "3.2.0"
 
-"jstoxml@^3.2.3":
+"jstoxml@^3.2.6":
   "integrity" "sha512-qL+tO1hssrJe6KjqKHeWEhCUxiiq0dB5vkmCwPhY7AYCMec1U/4gQR1gu2ID0qb9/E9ItHxVbiUhpFw3TXiwsA=="
   "resolved" "https://registry.npmjs.org/jstoxml/-/jstoxml-3.2.6.tgz"
   "version" "3.2.6"
